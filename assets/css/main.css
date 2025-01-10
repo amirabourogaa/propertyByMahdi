@@ -772,8 +772,8 @@ section,
   align-items: center;
   justify-content: center;
 }
-
-.hero img {
+.hero img.desktop-image,
+.hero img.mobile-image {
   position: absolute;
   inset: 0;
   display: block;
@@ -781,6 +781,11 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
+}
+
+/* Hide mobile image by default */
+.hero img.mobile-image {
+  display: none;
 }
 
 .hero:before {
@@ -845,6 +850,14 @@ section,
 }
 
 @media (max-width: 768px) {
+  .hero img.desktop-image {
+    display: none;
+  }
+  
+  .hero img.mobile-image {
+    display: block;
+  }
+  
   .hero h2 {
     font-size: 32px;
   }
