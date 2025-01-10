@@ -160,9 +160,8 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 24px;
+  font-size: 18px;
   margin: 0;
-  font-weight: 600;
   color: var(--heading-color);
 }
 
@@ -857,7 +856,7 @@ section,
   .hero img.mobile-image {
     display: block;
   }
-  
+
   .hero h2 {
     font-size: 32px;
   }
