@@ -803,7 +803,7 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 44px;
+  font-size: 36px;
   font-weight: 700;
 }
 
@@ -859,7 +859,7 @@ section,
   }
 
   .hero h2 {
-    font-size: 32px;
+    font-size: 18px;
   }
 
   .hero p {
