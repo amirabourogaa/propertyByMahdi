@@ -41,13 +41,19 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">+971 58 822 3004</h1>
+        <!-- <h1 class="sitename"><span>Call us: <br></span>+971 58 822 3004</h1> -->
+        <h1 class="sitename">
+          <span>
+            <i class="bi bi-telephone-fill fs-6"></i>   
+          </span>
+          +971 58 822 3004
+        </h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero">About me</a></li>
-          <li><a href="dubai-properties.html" class="active">Dubai Properties</a></li>
+          <li><a href="index.html#hero" class="active">About me</a></li>
+          <li><a href="dubai-properties.html" >Dubai Properties</a></li>
           <li><a href="ksa-properties.html">KSA Properties</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -61,31 +67,30 @@
   <main class="main">
 
     <section id="hero" class="hero section dark-background">
-      <img src="./assets/img/picture.png" alt="Real Estate Hero Image" class="desktop-image" data-aos="fade-in">
+      <img src="./assets/img/hero-bg-4.jpg" alt="Real Estate Hero Image" class="desktop-image" data-aos="fade-in">
       <img src="./assets/img/hero-bg-2.jpg" alt="Real Estate Hero Image" class="mobile-image" data-aos="fade-in">    
       <div class="container">
         <div class="row">
           <div class="col-lg-10">
             <h2 data-aos="fade-up" data-aos-delay="100">Welcome</h2>
             <!-- <h2 data-aos="fade-up" data-aos-delay="100">Let's Find Your Perfect Property Together!</h2> -->
-            <h2 data-aos="fade-up" data-aos-delay="100">With access to all real estate projects,</h2>
-            <h2 data-aos="fade-up" data-aos-delay="100">I’m here to help you seize the right opportunity.</h2>
+            <h2 data-aos="fade-up" data-aos-delay="100">Let's find your perfect property together !</h2>
            
             <p data-aos="fade-up" data-aos-delay="200">
-              Let's start here!
+              Let's start here !
             </p>
           </div>
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="sign-up-form">
-                <input type="email" name="email" placeholder="Enter your email">
-                <input type="submit" value="Subscribe">
-              </div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Thank you for subscribing!</div>
-            </form>
-          </div>
+          <section id="call-to-action" class="call-to-action">
+          
+            <div>
+                    <a class="cta-btn" 
+                       href="https://wa.me/+21698374952?text=Hi!%20I%20saw%20your%20website%20and%20I'm%20interested%20in%20learning%20more%20about%20real%20estate%20opportunities.%20Can%20we%20discuss%20further?" 
+                       target="_blank"
+                       rel="noopener noreferrer">
+                       <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+            </div>
+          </section>
         </div>
       </div>
     </section>
@@ -110,36 +115,28 @@
 
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div id="me" class="icon-box">
-              <i class="bi bi-house-door"></i>
-              <h3>Endless Opportunities</h3>
-              <p>We have access to all real estate projects available in the market, giving us the ability to offer you the best options.</p>
+              <img src="./assets/img/about/pic1.jpg" alt="Endless Opportunities" class="img-fluid">
             </div>
           </div> <!-- End Icon Box -->
-
+          
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
-              <i class="bi bi-person-check"></i>
-              <h3>Client-Centric Approach</h3>
-              <p>Our commitment is to always put the client's needs first, ensuring a seamless experience tailored to your vision.</p>
+              <img src="./assets/img/about/pic2.jpg" alt="Client-Centric Approach" class="img-fluid">
             </div>
           </div> <!-- End Icon Box -->
-
+          
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="icon-box">
-              <i class="bi bi-star"></i>
-              <h3>Proven Success</h3>
-              <p>With over 100 successful transactions, we have a track record of delivering results that exceed expectations.</p>
+              <img src="./assets/img/about/pic3.jpg" alt="Proven Success" class="img-fluid">
             </div>
           </div> <!-- End Icon Box -->
-
+          
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="icon-box">
-              <i class="bi bi-graph-up-arrow"></i>
-              <h3>Achieving Your Vision</h3>
-              <p>We are dedicated to turning your real estate goals into a reality, helping you find the perfect property for your needs.</p>
+              <img src="./assets/img/about/pic4.jpg" alt="Achieving Your Vision" class="img-fluid">
             </div>
           </div> <!-- End Icon Box -->
-
+          
         </div>
       </div>
 
@@ -287,15 +284,15 @@
       </div>
       <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
         <div class="image-stack">
-          <img src="https://i.pinimg.com/736x/e3/a3/6c/e3a36c8a279cf8e585f978e6e4697a83.jpg" alt="" class="stack-front">
-          <img src="https://i.pinimg.com/736x/58/1c/64/581c64b37ca78013ba4a6b8ad62f2133.jpg" alt="" class="stack-back">
+          <img src="./assets/img/features-1.jpg" alt="" class="stack-front">
+          <img src="./assets/img/features-2.jpg" alt="" class="stack-back">
         </div>
       </div>
     </div><!-- Features Item -->
 
     <div class="row gy-4 align-items-stretch justify-content-between features-item">
       <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-        <img src="https://i.pinimg.com/736x/d1/e0/78/d1e078d4beda6b0917cd2a7eab9db0a1.jpg" class="img-fluid" alt="">
+        <img src="./assets/img/features-3.jpg" class="img-fluid" alt="">
       </div>
       <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
         <h3>Reliability and Maximum Security</h3>
