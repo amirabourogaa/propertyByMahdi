@@ -813,7 +813,7 @@ section,
 .hero p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin: 5px 0 0 0;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .hero .sign-up-form {
@@ -866,7 +866,7 @@ section,
   }
 
   .hero p {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
